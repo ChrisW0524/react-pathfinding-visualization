@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import GridArea from "./components/GridArea";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+    return (
+        <div>
+            <GridArea></GridArea>
+        </div>
+    );
+};
 
-export default App
+export default App;
